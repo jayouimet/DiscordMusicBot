@@ -1,0 +1,22 @@
+{
+  "name": "nuttybot",
+  "version": "1.0.0",
+  "description": "Discord bot side project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayouimet",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^3.0.0",
+    "opusscript": "0.0.7",
+    "spotify-web-api-node": "^4.0.0",
+    "xml2js": "^0.4.23",
+    "ytdl-core": "^2.1.2"
+  }
+}
