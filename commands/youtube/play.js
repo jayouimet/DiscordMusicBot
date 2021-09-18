@@ -38,9 +38,9 @@ module.exports = {
         try {
             songInfo = await ytdl.getInfo(args[0]);
             song = {
-                title: songInfo.title,
-                url: songInfo.video_url,
-                length: songInfo.length_seconds
+                title: songInfo.videoDetails.title,
+                url: songInfo.videoDetails.video_url,
+                length: songInfo.videoDetails.lengthSeconds
             };
         }
         catch (err) {
